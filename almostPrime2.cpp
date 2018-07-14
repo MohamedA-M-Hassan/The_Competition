@@ -28,7 +28,7 @@ vector<int> split_string(string input_string) {
     return splits;
 }
 
-int getNoOfDistinctFactors(int n){
+int getNoOfDistinctFactors(int n){ 
   int tmp = n, cnt = 0;
   for(int i=2; i*i<=n; i++){
     bool distict = true;
